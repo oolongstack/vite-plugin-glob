@@ -43,7 +43,8 @@
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
     "test": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "play": "vite playground"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.2",
@@ -59,5 +60,9 @@
     "unbuild": "^1.1.1",
     "vite": "^4.1.1",
     "vitest": "^0.28.5"
+  },
+  "dependencies": {
+    "fast-glob": "^3.2.12",
+    "magic-string": "^0.29.0"
   }
 }
